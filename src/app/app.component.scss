@@ -1,0 +1,29 @@
+.container-for-list {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 0 auto;
+  width: 400px;
+  background: #ffffff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  transition: all 0.3s ease;
+}
+
+.todo-text {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #d9d9d9;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
